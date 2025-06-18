@@ -1,10 +1,10 @@
 #define BLYNK_TEMPLATE_ID "TMPL34_qUuqLq"
 #define BLYNK_TEMPLATE_NAME "gps"
-#define BLYNK_AUTH_TOKEN "zbzyqkhxYTdiZUfgZwn3adVyxqLPvL7K"  // Replace with your own
+#define BLYNK_AUTH_TOKEN "__________________________________________"  // Replace with your own
 
 // WiFi credentials
 char ssid[] = "vivo Y21";     // Replace with your WiFi SSID
-char pass[] = "29022004";     // Replace with your WiFi password
+char pass[] = "_______";     // Replace with your WiFi password
 
 // GPS module pins
 #define RXPin 16
