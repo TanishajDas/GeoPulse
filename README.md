@@ -98,7 +98,7 @@ This project uses the **Blynk IoT platform** to remotely monitor live GPS data v
 
   - SMS/email notification integration
 
-🙌 Let's Connect
+## 🙌 Let's Connect
 
   Email: dasit.tanisha@gmail.com
   
