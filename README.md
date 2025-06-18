@@ -1,4 +1,4 @@
-# 🚲 Geo Pulse: ESP32-Based Real-Time Vehicle Tracking System
+# Geo Pulse: ESP32-Based Real-Time Vehicle Tracking System
 
 GeoPulse is a lightweight, real-time **GPS tracking system** built using the **ESP32 microcontroller**, **Neo-6M GPS module**, and an **OLED display**, with **Remote monitoring through the Blynk mobile app**. The project enhances vehicle security by allowing users to track their vehicle’s location in real-time from anywhere in the world.
 
