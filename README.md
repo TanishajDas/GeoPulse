@@ -13,13 +13,13 @@ Wheel Watch is a lightweight, real-time **GPS tracking system** built using the 
   -  Smartphone integration with Blynk Cloud
 
 
-### 🔧 Hardware
+### Hardware
 - ESP32 DevKit V1
 - Neo-6M GPS Module
 - SH1106 OLED Display (1.3")
 - Jumper wires, breadboard, power supply
 
-### 🧠 Software
+### Software
 - Arduino IDE (v1.8.19+)
 - Blynk App (iOS/Android)
 - Libraries:
@@ -35,14 +35,19 @@ Wheel Watch is a lightweight, real-time **GPS tracking system** built using the 
 > *ESP32* ←→ *OLED (I2C SDA/SCL)*  
 > *Power* via USB or LiPo battery
 
-![Hardware Setup](https://your-uploaded-image-link)
+System Architecture:
 
----
+![dwdw](https://github.com/user-attachments/assets/5925f784-8a4c-417e-97d2-8f0973abd096)
 
-## 💻 Code Summary
 
-```cpp
-// Receives GPS data and transmits via Blynk
-Blynk.virtualWrite(V1, gps.location.lat());
-Blynk.virtualWrite(V2, gps.location.lng());
-Blynk.virtualWrite(V3, gps.course.deg());
+Hardware Connections:
+
+![dwd](https://github.com/user-attachments/assets/98b9dec7-5950-465e-832b-578e881f6d57)
+
+
+Live serial monitor outputs:
+
+![Screenshot 2025-06-19 000316](https://github.com/user-attachments/assets/aee61c19-d440-4d18-a6a4-199fda040c2a)
+
+
+
