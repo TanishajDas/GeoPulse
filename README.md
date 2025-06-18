@@ -1,4 +1,4 @@
-# Geo Pulse: ESP32-Based Real-Time Vehicle Tracking System
+# Geo Pulse: Real-Time Vehicle Tracking System
 
 GeoPulse is a lightweight, real-time **GPS tracking system** built using the **ESP32 microcontroller**, **Neo-6M GPS module**, and an **OLED display**, with **Remote monitoring through the Blynk mobile app**. The project enhances vehicle security by allowing users to track their vehicle’s location in real-time from anywhere in the world.
 
@@ -47,6 +47,31 @@ GeoPulse is a lightweight, real-time **GPS tracking system** built using the **E
 
 ![Screenshot 2025-06-19 000316](https://github.com/user-attachments/assets/aee61c19-d440-4d18-a6a4-199fda040c2a)
 
+## 📱 Blynk App Integration
+
+This project uses the **Blynk IoT platform** to remotely monitor live GPS data via a mobile app.
+
+### 🛠️ Blynk Setup Guide
+
+1. **Install Blynk App** from Play Store or App Store
+2. **Create a new Template** with:
+   - Template Name: `gps`
+   - Hardware: `ESP32`
+   - Connection Type: `WiFi`
+3. Note the following from the Template:
+   - Template ID
+   - Device Name (Optional)
+   - Auth Token (send to your code)
+
+4. In your Blynk App:
+   - Add 3 widgets (Label or Display)
+   - Bind:
+     - `V1` → Latitude
+     - `V2` → Longitude
+     - `V3` → Course (heading)
+   - Style your interface (optional: add Map widget, refresh intervals, etc.)
+
+5. Your phone will now display the **live location** sent from the GPS module!
 
 📍Blynk integration:
 
