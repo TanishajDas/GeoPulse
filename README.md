@@ -1,8 +1,6 @@
 # 🚲 Geo Pulse: ESP32-Based Real-Time Vehicle Tracking System
 
-## 📍 Overview
-
-Wheel Watch is a lightweight, real-time **GPS tracking system** built using the **ESP32 microcontroller**, **Neo-6M GPS module**, and an **OLED display**, with **Remote monitoring through the Blynk mobile app**. The project enhances vehicle security by allowing users to track their vehicle’s location in real-time from anywhere in the world.
+GeoPulse is a lightweight, real-time **GPS tracking system** built using the **ESP32 microcontroller**, **Neo-6M GPS module**, and an **OLED display**, with **Remote monitoring through the Blynk mobile app**. The project enhances vehicle security by allowing users to track their vehicle’s location in real-time from anywhere in the world.
 
 ## 🧩 Features
 
@@ -35,19 +33,47 @@ Wheel Watch is a lightweight, real-time **GPS tracking system** built using the 
 > *ESP32* ←→ *OLED (I2C SDA/SCL)*  
 > *Power* via USB or LiPo battery
 
-System Architecture:
+💡System Architecture:
 
 ![dwdw](https://github.com/user-attachments/assets/5925f784-8a4c-417e-97d2-8f0973abd096)
 
 
-Hardware Connections:
+🛠️Hardware Connections:
 
 ![dwd](https://github.com/user-attachments/assets/98b9dec7-5950-465e-832b-578e881f6d57)
 
 
-Live serial monitor outputs:
+💻Live serial monitor outputs:
 
 ![Screenshot 2025-06-19 000316](https://github.com/user-attachments/assets/aee61c19-d440-4d18-a6a4-199fda040c2a)
 
 
+📍Blynk integration:
 
+![Screenshot 2025-06-19 000710](https://github.com/user-attachments/assets/855962cd-3ecc-470e-9eac-aba9ea0fd047)
+
+
+## 💼 Project Applications
+
+   Bicycle / scooter theft protection
+
+   Fleet vehicle tracking
+
+   IoT-based logistics monitoring
+
+   Parental control or school transport visibility
+
+##  Future Scope
+
+  Add geofencing with alerts
+
+  Route history & playback
+
+   Speed limit tracking
+
+   SMS/email notification integration
+
+🙌 Let's Connect
+
+  Email: dasit.tanisha@gmail.com
+  Linkedin: www.linkedin.com/in/tanishajdas
