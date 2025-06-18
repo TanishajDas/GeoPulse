@@ -4,7 +4,7 @@ GeoPulse is a lightweight, real-time **GPS tracking system** built using the **E
 
 ## 🧩 Features
 
-- 🌐 **Live GPS Tracking**
+🌐 **Live GPS Tracking**
   -  Real-time location alerts via Blynk App
   -  On-device OLED display for instant feedback
   -  Low power consumption with battery options
@@ -55,25 +55,26 @@ GeoPulse is a lightweight, real-time **GPS tracking system** built using the **E
 
 ## 💼 Project Applications
 
-   Bicycle / scooter theft protection
+  - Bicycle / scooter theft protection
 
-   Fleet vehicle tracking
+  - Fleet vehicle tracking
 
-   IoT-based logistics monitoring
+  - IoT-based logistics monitoring
 
-   Parental control or school transport visibility
+  - Parental control or school transport visibility
 
 ##  Future Scope
 
-  Add geofencing with alerts
+  - Add geofencing with alerts
 
-  Route history & playback
+  - Route history & playback
 
-   Speed limit tracking
+  - Speed limit tracking
 
-   SMS/email notification integration
+  - SMS/email notification integration
 
 🙌 Let's Connect
 
   Email: dasit.tanisha@gmail.com
+  
   Linkedin: www.linkedin.com/in/tanishajdas
